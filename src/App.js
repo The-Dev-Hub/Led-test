@@ -24,19 +24,19 @@ function App() {
   function fireRed(e) {
     e.preventDefault();
     console.log("The link was clicked.");
-    fire(17);
+    fire("rojo");
   }
 
   function fireYellow(e) {
     e.preventDefault();
     console.log("The link was clicked.");
-    fire(27);
+    fire("amarillo");
   }
 
   function fireGreen(e) {
     e.preventDefault();
     console.log("The link was clicked.");
-    fire(22);
+    fire("verde");
   }
   return (
     <div className="App">
